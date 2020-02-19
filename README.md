@@ -1,1 +1,7 @@
+kaksi maksi
+
+
+
+
+
 # szoftgyak
