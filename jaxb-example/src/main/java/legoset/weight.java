@@ -9,11 +9,12 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = {})
 @Data
-public class weight {
+public class Weight {
 
     @XmlAttribute
     private String unit;
 
+    @XmlValue
     private double value;
 
 

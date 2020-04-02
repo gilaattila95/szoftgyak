@@ -23,16 +23,16 @@ public class Main {
         legoset.setUrl(new URL("https://brickset.com/sets/75211-1/Imperial-TIE-Fighter"));
         legoset.setNumber(75211);
 
-        weight weight = new weight();
+        Weight weight = new Weight();
         weight.setUnit("kg");
         weight.setValue(0.89);
         legoset.setWeight(weight);
 
 
-        ArrayList<minifig> minifigs = new ArrayList<>();
-        minifigs.add(new minifig("Imperial Mudtrooper", 2));
-        minifigs.add(new minifig("Imperial Pilot", 1));
-        minifigs.add(new minifig("Mimban Stormtrooper", 1));
+        ArrayList<Minifig> minifigs = new ArrayList<>();
+        minifigs.add(new Minifig("Imperial Mudtrooper", 2));
+        minifigs.add(new Minifig("Imperial Pilot", 1));
+        minifigs.add(new Minifig("Mimban Stormtrooper", 1));
         legoset.setMinifigs(minifigs);
 
 

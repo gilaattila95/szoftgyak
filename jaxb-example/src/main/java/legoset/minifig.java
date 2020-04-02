@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
-public class minifig {
+public class Minifig {
 
     @XmlValue
     private String name;
@@ -14,9 +14,9 @@ public class minifig {
     @XmlAttribute
     private int count;
 
-    public minifig() {}
+    public Minifig() {}
 
-    public minifig(String name, int db) {
+    public Minifig(String name, int db) {
         this.name  = name;
         this.count = db;
     }

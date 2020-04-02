@@ -30,9 +30,9 @@ public class legoset {
 
     @XmlElementWrapper(name = "minifigs")
     @XmlElement(name = "minifig")
-    private List<minifig> minifigs;
+    private List<Minifig> minifigs;
 
-    private String weight;
+    private Weight weight;
     //@XmlAttribute
     //private String unit;
 
